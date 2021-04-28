@@ -1,0 +1,204 @@
+    .nav-link {
+        color: rgb(91, 146, 39);
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    .nav-link:hover {
+        color: rgb(2, 92, 2);
+    }
+    
+    .masthead {
+        background-image: url(./img/backG.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .pic {
+        height: 100vh;
+        background-image: url(./img/pinkPlant.jpg);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        transition: transform .2s;
+        background-position: center;
+    }
+    
+    .pic2 {
+        height: 100vh;
+        background-image: url(./img/sofaplantjpg.jpg);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        transition: transform .2s;
+        background-position: center;
+    }
+    
+    .cont-descript {
+        background-color: #ead2d2;
+        min-height: 45vh;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h5 {
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    * {
+        color: rgb(7, 58, 7);
+    }
+    
+    .fas {
+        color: rgb(2, 92, 2);
+    }
+    
+    .home-title {
+        min-height: 100vh;
+        text-align-last: left;
+        align-self: initial;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    
+    .nav-btn {
+        color: rgb(2, 92, 2);
+    }
+    
+    .bg-footer {
+        background-color: #ffc339;
+    }
+    
+    .text-costum {
+        color: rgb(91, 146, 39);
+    }
+    
+    .text-costum:hover {
+        color: rgb(2, 92, 2);
+    }
+    
+    .lable-create {
+        color: rgb(2, 92, 2);
+        font-family: 'Caveat', cursive;
+        font-size: xx-large;
+        font-style: normal;
+    }
+    
+    .btn-cst {
+        background-color: #ffc339;
+        border-radius: 2rem;
+        width: 10%;
+    }
+    
+    .card-cstm {
+        border: none;
+        border-radius: 1rem;
+    }
+    
+    .cont-edit {
+        width: 50%;
+        align-content: center;
+        text-align: -webkit-center;
+    }
+    
+    .cont-img {
+        max-height: 20%;
+        max-width: 20%;
+    }
+    
+    .btn-cst-create {
+        background-color: #ffc339;
+        border-radius: 2rem;
+        border: none;
+    }
+    
+    .btn-cst-create:hover {
+        background-color: rgb(91, 146, 39);
+    }
+    
+    .img-form {
+        height: 45px;
+    }
+    
+    .card-cstm-show {
+        border: none;
+    }
+    
+    .chiSiamo-pic1 {
+        background-image: url(./img/chisiamo1jpg.jpg);
+        height: 85vh;
+        background-size: cover;
+        border-radius: 1rem;
+    }
+    
+    .trash {
+        color: rgb(2, 92, 2);
+    }
+    
+    .btn-icones:focus,
+    .btn-icones:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .trash:hover {
+        color: red;
+    }
+    
+    .fa-pencil-alt:hover {
+        color: #ffc339;
+        ;
+    }
+    
+    .pic:hover {
+        -ms-transform: scale(1.5);
+        /* IE 9 */
+        -webkit-transform: scale(1.5);
+        /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+    
+    .pic2:hover {
+        -ms-transform: scale(1.5);
+        /* IE 9 */
+        -webkit-transform: scale(1.5);
+        /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+    
+    .btn-cst-create:focus,
+    .btn-cst-create:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    .form-control:focus {
+        border-color: none;
+        box-shadow: none;
+    }
+    
+    .form-control {
+        border-radius: 1rem;
+    }
+    
+    .bg-chisiamo {
+        background-color: #ffc339;
+    }
+    
+    .cont-login {
+        height: 65vh;
+    }
+    
+    .cont-register {
+        height: 65vh;
+    }
+    
+    .bg-index {
+        background-color: rgb(244, 253, 244);
+    }
+    
+    #navbar {
+        z-index: 9999;
+        transition: 1s;
+    }
